@@ -1,6 +1,6 @@
 # br-formats 🇧🇷 
 
-#### Supported format
+#### Supported formats
 
 ```
 Phone: 00000000000 
@@ -19,7 +19,7 @@ Return: 00.000.000/0000-00 | 14 digits
 const formatPhoneNumber = require('br-format');
 ```
 
-#### Insert the phone number
+#### Pass phone number
 ```
 console.log(formatPhoneNumber('00000000000'));
 // (00) 00000-0000
