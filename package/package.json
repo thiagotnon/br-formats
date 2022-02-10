@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "Format data like CNPJ, CPF, Date or Phone numbers",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagotnon/format-numbers.git"
+    "url": "git+https://github.com/thiagotnon/br-format.git"
   },
   "keywords": [
     "Brazil",
@@ -21,7 +20,7 @@
   "author": "Thiago N.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thiagotnon/format-numbers/issues"
+    "url": "https://github.com/thiagotnon/br-format/issues"
   },
-  "homepage": "https://github.com/thiagotnon/format-numbers#readme"
+  "homepage": "https://github.com/thiagotnon/br-format#readme"
 }
