@@ -2,15 +2,20 @@
 
 #### Supported format
 
-Phone: 00000000000 -> (00) 99999-9999
+```
+Phone: 00000000000 
+Return (00) 00000-0000| 11 digits
 
-CPF: 00000000000 -> 000.000.000-00
+CPF: 00000000000
+Return: 000.000.000-00 | 11 digits
 
-CNPJ: 00.000.000/0000-00
+CNPJ: 00000000000000
+Return: 00.000.000/0000-00 | 14 digits
 
+```
 #### How to use
 ```
-//Import the format type
+//import the format type
 const formatPhoneNumber = require('br-format');
 ```
 
