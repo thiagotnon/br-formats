@@ -32,5 +32,15 @@ function formatCpfNumber (cpf) {
   return null;
 }
 
+export function formatCepNumber(cep) {
+  let cleaned = clearNumber(cep);
+  let match = cleaned.match(/^(\d{2})(\d{3})(\d)$/);
 
-module.exports = { formatPhoneNumber, formatCnpjNumber, formatCpfNumber };
+  if(match) {
+    return `${match[1]}.${match[2]}-${match[3]}`
+  }
+  return null;
+}
+
+
+module.exports = { formatPhoneNumber, formatCnpjNumber, formatCpfNumber, formatCepNumber };
