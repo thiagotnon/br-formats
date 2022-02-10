@@ -1,5 +1,5 @@
 {
-  "name": "br-format",
+  "name": "br-formats",
   "version": "1.0.0",
   "description": "Format data like CNPJ, CPF, Date or Phone numbers",
   "main": "index.js",
